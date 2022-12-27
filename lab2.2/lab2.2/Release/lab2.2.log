@@ -1,0 +1,22 @@
+﻿Построение начато 11.11.2022 12:03:23.
+     1>Проект "C:\Users\student\Desktop\lab2.1\lab2.2\lab2.2\lab2.2.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Обращение к "Release\lab2.2.unsuccessfulbuild".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\lab2.2.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt lab2.2.cpp
+         lab2.2.cpp
+     1>lab2.2.cpp(29): error C3646: qs: неизвестный спецификатор переопределения
+     1>lab2.2.cpp(29): error C2065: items: необъявленный идентификатор
+     1>lab2.2.cpp(29): error C2065: count: необъявленный идентификатор
+     1>lab2.2.cpp(29): error C2072: qs: инициализация функции
+     1>lab2.2.cpp(29): error C2078: слишком много инициализаторов
+     1>lab2.2.cpp(30): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+     1>lab2.2.cpp(62): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>lab2.2.cpp(191): error C3872: 0x2003: этот символ невозможно использовать в идентификаторе
+     1>lab2.2.cpp(192): fatal error C1004: непредвиденное обнаружение конца файла
+     1>Построение проекта "C:\Users\student\Desktop\lab2.1\lab2.2\lab2.2\lab2.2.vcxproj" завершено (целевые объекты build) с ошибкой.
+
+СБОЙ построения.
+
+Затраченное время: 00:00:00.39
